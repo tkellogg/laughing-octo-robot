@@ -13,5 +13,10 @@ namespace SendGrid.Controllers
         {
             return "GET";
         }
+
+        public string Post()
+        {
+            return "POST";
+        }
     }
 }
